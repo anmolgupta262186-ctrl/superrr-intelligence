@@ -1,0 +1,42 @@
+[
+  {
+    "player": "Sean Dickson",
+    "file": "sean-dickson.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Dickson2.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Blue_Square_Thing\" class=\"mw-redirect\" title=\"User:Blue Square Thing\">Blue Square Thing</a>"
+  },
+  {
+    "player": "Sam Billings",
+    "file": "sam-billings.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sam_Billings_Kent_V_Surrey_2015_at_Kia_Oval_Cricket_Ground_(27190750944).jpg",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/83996619@N04\">M.o.B 68</a>"
+  },
+  {
+    "player": "Dan Lawrence",
+    "file": "dan-lawrence.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Dan_Lawrence_May_2026.jpg",
+    "license": "Public domain",
+    "license_url": null,
+    "artist": "Dave Morton"
+  },
+  {
+    "player": "Trent Boult",
+    "file": "trent-boult.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:2018.02.03.22.23.14-AUSvNZL_T20_AUS_innings,_SCG_(39533156665).jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/125524007@N08\">www.davidmolloyphotography.com</a> from Sydney, Australia"
+  },
+  {
+    "player": "Luke Procter",
+    "file": "luke-procter.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:3_34_Luke_Procter.jpg",
+    "license": "Public domain",
+    "license_url": null,
+    "artist": "Dave Morton"
+  }
+]

@@ -1,0 +1,22 @@
+
+# Datasets
+data/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+.env.*
+
+# Frontend
+node_modules/
+dist/
+
+# Temporary files
+*.bak
+*.bak.*
+*.log
+
