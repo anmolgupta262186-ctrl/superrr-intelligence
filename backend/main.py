@@ -4,6 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pathlib import Path
 import pandas as pd
 import json
+import os
 
 app = FastAPI(
     title="SupeRR Intelligence",
@@ -17,7 +18,7 @@ app.add_middleware(
         "http://127.0.0.1:5173",
         "http://localhost:5174",
         "http://127.0.0.1:5174"
-    ],
+    ] + [url.strip() for url in os.getenv("FRONTEND_URL", "").split(",") if url.strip()],
     allow_methods=["*"],
     allow_headers=["*"]
 )
