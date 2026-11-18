@@ -54,7 +54,19 @@ def home():
 @app.get("/api/rankings/batters")
 def batters():
 
-    return recruitment_rankings("Batting")
+    rows = load_csv(
+        "auction2027/strict_final/final_batting_shortlist.csv"
+    )
+
+    impacts = {
+        "Middle Order Batter": "Strengthens middle-order batting under pressure.",
+        "Finisher": "Potential to improve death-over scoring."
+    }
+
+    for row in rows:
+        row["impact"] = impacts.get(row["role"], row["role"])
+
+    return rows
 
 
 @app.get("/api/rankings/bowlers")
