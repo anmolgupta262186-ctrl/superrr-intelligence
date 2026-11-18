@@ -71,7 +71,7 @@ def batters():
 
 @app.get("/api/rankings/bowlers")
 def bowlers():
-    return recruitment_rankings("Bowling")
+    return load_csv("auction2027/strict_final/final_bowling_shortlist.csv")
 
 
 @app.get("/api/rr/weaknesses")
